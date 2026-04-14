@@ -22,7 +22,7 @@
 }
 
 .header__links-list-item {
-  float: left; 
+  float: left;
   list-style-type: circle;
   margin-left: 30px;
 }
@@ -41,7 +41,7 @@
 .header__links-list::after {
   content: '';
   display: block;
-  clear: both; 
+  clear: both;
 }
 
 .header__links-list-item:first-child .header__link {
@@ -75,7 +75,7 @@
 
 .header__address {
   justify-self: end;
-  text-align: left; /* Исправлено на right, чтобы соответствовать логике адреса */
+  text-align: left;
   font-size: 18px;
   line-height: 1.5;
   color: #000;
