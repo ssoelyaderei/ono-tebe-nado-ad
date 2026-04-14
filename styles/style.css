@@ -166,11 +166,11 @@
     display: flex;
     gap: 30px;
     list-style: none;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 .lots__card-list-item {
-    flex: 1;
+    flex: 0 0 334px;
     min-width: 334px;
     min-height: 596px;
 }
