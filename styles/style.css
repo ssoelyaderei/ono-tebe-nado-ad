@@ -127,27 +127,36 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 78px;
+    gap: 10px;
     width: 100%;
 }
 
 .cover__description-text {
     color: #ffffff;
     text-transform: uppercase;
-    letter-spacing: 8px;
-    font-size: 22px;
-    word-spacing: 18px;
+    letter-spacing: 5px;
+    font-size: 17px;
+    word-spacing: 10px;
 }
 
 .bet-button {
-    font-size: 22px;
+    display: flex;
+    font-size: 17px;
+    width: 256px;
+    height: 51px;
     text-align: center;
+    align-items: center;
+    justify-content: center;
     text-transform: uppercase;
-    border: 1px solid #ffffff;
-    padding: 12px 32px;
+    border: 2px solid #ffffff;
+    padding: 10px;
     color: #ffffff;
     background: transparent;
     cursor: pointer;
+    font-weight: normal;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+    margin-bottom: -10px;
 }
 
 /* Секция лотов */
